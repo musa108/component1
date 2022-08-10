@@ -1,0 +1,76 @@
+body{
+    background-image: url(./bg-intro-desktop.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: hsl(0, 100%, 74%) ;
+    font-family: 'Poppins', sans-serif;
+}
+.component{
+    display: flex;
+    flex: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.message{
+margin-right: 20px;
+}
+.message1{
+    font-size: 30px;
+    color: white;
+}
+.message2{
+    color: white;
+}
+.form{
+    align-items: center;
+    justify-content: center;
+}
+.price{
+padding: 15px 100px;
+border-radius: 5px;
+background-color:hsl(249, 73%, 39%);
+color:hsl(0, 5%, 89%);
+box-shadow: 0px 5px 3px 0px rgb(51, 47, 47);
+}
+.time{
+    color: hsl(246, 25%, 77%) ;
+}
+.value{
+    margin-right: 10px;
+}
+.input{
+    display: block;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 15px;
+}
+.input1{
+    padding: 15px 80px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 0.2px solid;
+    opacity: 60%;
+}
+.btn{
+    padding: 15px 83px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border:1pt solid rgb(51, 47, 47);
+    background-color: green;
+    color: hsl(0, 5%, 89%);
+    box-shadow: 1px 1px 3px 1px rgb(51, 47, 47);
+    opacity: 70%;
+}
+.btn-message{
+    font-size: 8px;
+    margin-left: 20px;
+}
+.terms{
+    color: red;
+    }
+    
